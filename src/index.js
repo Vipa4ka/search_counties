@@ -1,3 +1,1 @@
-import './css/index.scss';
-
-
+import './fetchCountries.js';
