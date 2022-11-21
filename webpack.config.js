@@ -36,8 +36,8 @@ module.exports = {
       filename: 'index.html',
     }),
     new CleanWebpackPlugin(),
-    new CopyPlugin({
-      patterns: [{ from: './src/images', to: 'images' }],
-    }),
+    // new CopyPlugin({
+    //   patterns: [{ from: './src/images', to: 'images' }],
+    // }),
   ],
 };
