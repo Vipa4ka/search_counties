@@ -1,1 +1,2 @@
-import './fetchCountries.js';
+import a from './fetchCountries';
+a();
