@@ -7,14 +7,11 @@ import './style.css';
 import { error } from '@pnotify/core';
 import '@pnotify/core/dist/BrightTheme.css';
 
-refs.input.addEventListener('input', debounce(onSearch, 500));
+refs.input.addEventListener('input', debounce(onSearch, 1000));
 
 function onSearch(e) {
-  // e.preventDefault();
   onClear();
-
   const formName = e.target.value;
-
   fetchCountries(formName)
     .then(country => {
       if (country.length === 1) {
@@ -40,7 +37,6 @@ function renderCountries(nameCountry, Hbs) {
 function onError(e) {
   error({
     text: `${e}`,
-    // closer: true,
     hide: true,
     sticker: false,
     delay: 2000,
@@ -51,5 +47,3 @@ function onError(e) {
 function onClear() {
   refs.countainerCards.innerHTML = '';
 }
-
-// japan pol
