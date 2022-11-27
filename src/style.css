@@ -1,0 +1,48 @@
+/*  japan //switzerland // Ukraine // poland*/
+
+body {
+  margin: 20px;
+  font-size: 28px;
+  font-family: 'Alegreya', serif;
+  font-family: 'Pacifico', cursive;
+  background: url(fon.png) no-repeat;
+  background-size: cover;
+  color: #015d81;
+}
+
+.inputCountry {
+  display: flex;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: thick double #32a1ce;
+  color: #015d81;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: 'Alegreya', serif;
+  font-family: 'Pacifico', cursive;
+  border-radius: 17px;
+}
+
+.countainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nameСategory {
+  font-weight: bold;
+}
+
+.nameСategoryData {
+  margin-left: 20px;
+  font-weight: 400;
+}
+.errorMessage {
+  top: 50px; /*Replace the 25px with the top that you need*/
+  right: 160px;
+  position: absolute;
+  height: auto;
+  z-index: 9999;
+}

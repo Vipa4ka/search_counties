@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Vipa4ka/Webpack#readme",
   "devDependencies": {
+    "@pnotify/core": "^5.2.0",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
@@ -29,6 +30,8 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
-    "clean-webpack-plugin": "^4.0.0"
+    "clean-webpack-plugin": "^4.0.0",
+    "handlebars-loader": "^1.7.2",
+    "lodash.debounce": "^4.0.8"
   }
 }
