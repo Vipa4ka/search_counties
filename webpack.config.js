@@ -24,10 +24,10 @@ module.exports = {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
       },
-      // {
-      //   test: /\.hbs$/,
-      //   use: 'handlebars-loader',
-      // },
+      {
+        test: /\.hbs$/,
+        use: 'handlebars-loader',
+      },
     ],
   },
   plugins: [
